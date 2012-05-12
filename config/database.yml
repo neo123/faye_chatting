@@ -6,10 +6,7 @@
 development:
   adapter: sqlite3
   database: faye_chatting_dev
-  pool: 5
-  timeout: 5000
-  username: root
-  password: abhijit123
+  
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -17,15 +14,9 @@ development:
 test:
   adapter: sqlite3
   database: faye_chatting_test
-  pool: 5
-  timeout: 5000
-  username: root
-  password: abhijit123
+  
 
 production:
   adapter: sqlite3
   database: faye_chatting_pro
-  pool: 5
-  timeout: 5000
-  username: root
-  password: abhijit123
+  
